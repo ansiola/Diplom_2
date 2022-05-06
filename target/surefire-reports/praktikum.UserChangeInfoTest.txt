@@ -1,11 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: praktikum.UserChangeInfoTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 33.202 s <<< FAILURE! - in praktikum.UserChangeInfoTest
-userInfoCantBeChangeWithSameEmailTest(praktikum.UserChangeInfoTest)  Time elapsed: 1.413 s  <<< FAILURE!
-java.lang.AssertionError: 
-Status code is incorrect
-Expected: <403>
-     but: was <200>
-	at praktikum.UserChangeInfoTest.userInfoCantBeChangeWithSameEmailTest(UserChangeInfoTest.java:42)
-
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.336 s - in praktikum.UserChangeInfoTest
