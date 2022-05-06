@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="praktikum.OrderCreateTest" time="6.198" tests="4" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/anastasia/Diplom/Diplom_2/target/test-classes:/home/anastasia/Diplom/Diplom_2/target/classes:/home/anastasia/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/anastasia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/anastasia/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/home/anastasia/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/home/anastasia/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/home/anastasia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/anastasia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/anastasia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/anastasia/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/anastasia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/anastasia/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/anastasia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/anastasia/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/home/anastasia/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/home/anastasia/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/home/anastasia/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/home/anastasia/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/anastasia/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/anastasia/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/home/anastasia/.m2/repository/io/qameta/allure/allure-junit4/2.17.2/allure-junit4-2.17.2.jar:/home/anastasia/.m2/repository/io/qameta/allure/allure-java-commons/2.17.2/allure-java-commons-2.17.2.jar:/home/anastasia/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/anastasia/.m2/repository/io/qameta/allure/allure-model/2.17.2/allure-model-2.17.2.jar:/home/anastasia/.m2/repository/io/qameta/allure/allure-rest-assured/2.17.2/allure-rest-assured-2.17.2.jar:/home/anastasia/.m2/repository/io/qameta/allure/allure-attachments/2.17.2/allure-attachments-2.17.2.jar:/home/anastasia/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/home/anastasia/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.1/jackson-databind-2.13.1.jar:/home/anastasia/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.1/jackson-annotations-2.13.1.jar:/home/anastasia/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.1/jackson-core-2.13.1.jar:/home/anastasia/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/home/anastasia/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/anastasia/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/home/anastasia/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/home/anastasia/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-amazon-corretto/lib"/>
+    <property name="sun.java.command" value="/home/anastasia/Diplom/Diplom_2/target/surefire/surefirebooter16432069720865643138.jar /home/anastasia/Diplom/Diplom_2/target/surefire 2022-05-06T15-34-35_271-jvmRun1 surefire1671694203363714056tmp surefire_0951677379654886547tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/anastasia/Diplom/Diplom_2/target/test-classes:/home/anastasia/Diplom/Diplom_2/target/classes:/home/anastasia/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/anastasia/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/anastasia/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/home/anastasia/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/home/anastasia/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/home/anastasia/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/anastasia/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/anastasia/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/anastasia/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/anastasia/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/anastasia/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/anastasia/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/anastasia/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/home/anastasia/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/home/anastasia/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/home/anastasia/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/home/anastasia/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/anastasia/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/anastasia/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/home/anastasia/.m2/repository/io/qameta/allure/allure-junit4/2.17.2/allure-junit4-2.17.2.jar:/home/anastasia/.m2/repository/io/qameta/allure/allure-java-commons/2.17.2/allure-java-commons-2.17.2.jar:/home/anastasia/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/anastasia/.m2/repository/io/qameta/allure/allure-model/2.17.2/allure-model-2.17.2.jar:/home/anastasia/.m2/repository/io/qameta/allure/allure-rest-assured/2.17.2/allure-rest-assured-2.17.2.jar:/home/anastasia/.m2/repository/io/qameta/allure/allure-attachments/2.17.2/allure-attachments-2.17.2.jar:/home/anastasia/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/home/anastasia/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.1/jackson-databind-2.13.1.jar:/home/anastasia/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.1/jackson-annotations-2.13.1.jar:/home/anastasia/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.1/jackson-core-2.13.1.jar:/home/anastasia/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/home/anastasia/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/anastasia/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/home/anastasia/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/home/anastasia/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="allure.results.directory" value="/home/anastasia/Diplom/Diplom_2/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/anastasia"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-amazon-corretto"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/anastasia/Diplom/Diplom_2"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/anastasia/Diplom/Diplom_2/target/surefire/surefirebooter16432069720865643138.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.15+9-LTS"/>
+    <property name="user.name" value="anastasia"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.13.0-40-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.15.9.1"/>
+    <property name="localRepository" value="/home/anastasia/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2022.1"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="user.dir" value="/home/anastasia/Diplom/Diplom_2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.15+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="orderCantBeCreatedWithOutIngredients" classname="praktikum.OrderCreateTest" time="2.13"/>
+  <testcase name="orderCanBeCreatedNonAuthUser" classname="praktikum.OrderCreateTest" time="0.805"/>
+  <testcase name="orderCantBeCreatedWithIncorrectIngredients" classname="praktikum.OrderCreateTest" time="1.476">
+    <error message="class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.Boolean (io.restassured.path.xml.XmlPath is in unnamed module of loader &apos;app&apos;; java.lang.Boolean is in module java.base of loader &apos;bootstrap&apos;)" type="java.lang.ClassCastException">java.lang.ClassCastException: class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.Boolean (io.restassured.path.xml.XmlPath is in unnamed module of loader 'app'; java.lang.Boolean is in module java.base of loader 'bootstrap')
+	at praktikum.OrderCreateTest.orderCantBeCreatedWithIncorrectIngredients(OrderCreateTest.java:113)
+</error>
+  </testcase>
+  <testcase name="orderCanBeCreatedAuthUser" classname="praktikum.OrderCreateTest" time="1.755"/>
+</testsuite>
