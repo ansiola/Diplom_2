@@ -97,7 +97,7 @@ public class OrderCreateTest {
         assertEquals("The error message is not correct", "Ingredient ids must be provided", errorMessage);
     }
 
-    @Test //(expected = ClassCastException.class)
+    @Test (expected = ClassCastException.class)
     @Description ("Создание заказа с невалидными ингридиентами")
     public void orderCantBeCreatedWithIncorrectIngredients (){
 

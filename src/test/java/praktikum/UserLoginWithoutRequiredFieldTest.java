@@ -26,8 +26,7 @@ public class UserLoginWithoutRequiredFieldTest {
         return new Object[][] {
                 {UserCredentials.getUserWithEmail(user), 401, "email or password are incorrect"},
                 {UserCredentials.getUserWithPassword(user), 401, "email or password are incorrect"},
-                {UserCredentials.getUserWithName(user), 401, "email or password are incorrect"},
-                {UserCredentials.getUserWithRandomEmailAndPassword(), 401, "email or password are incorrect"}
+                {UserCredentials.getUserWithName(user), 401, "email or password are incorrect"}
         };
     }
 
@@ -35,8 +34,7 @@ public class UserLoginWithoutRequiredFieldTest {
     @Description("Проверка что пользователь не может авторизоваться " +
             "1. Только с логином " +
             "2. Только с паролем " +
-            "3. Только с именем" +
-            "4. С рандомным логином и паролем ")
+            "3. Только с именем")
 
     public void courierLoginWithoutNecessaryField () {
 
